@@ -322,8 +322,11 @@ footer {
     max-height: 100%;
     vertical-align: middle;
     object-fit: cover;
+    transition: 1s;
 }
-
+.gallery--gallery-page img:hover {
+    transform: scale(1.5);
+}
 /* abaut-us page */
 
 .section-abaut-us-page {
