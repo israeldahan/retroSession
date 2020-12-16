@@ -352,6 +352,7 @@ footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    margin-bottom: 20px;
 }
 .section-our-services .services p, .section-our-services .services h3{ 
     margin: 10px 0 ;
@@ -385,10 +386,10 @@ footer {
     background: -378px -145px / 954px no-repeat url(./assets/shutterstock_493495414.jpg);
 }
 .section-our-services .services .service .icon-service.four{
-    background: -166px -40px / 954px no-repeat url(./assets/shutterstock_493495414.jpg);
+    background: -166px -37px / 954px no-repeat url(./assets/shutterstock_493495414.jpg);
 }
 .section-our-services .services .service .icon-service.five{
-    background: -163px -251px / 954px no-repeat url(./assets/shutterstock_493495414.jpg);
+    background: -163px -248px / 954px no-repeat url(./assets/shutterstock_493495414.jpg);
 }
 .section-our-services .services .service .icon-service.sixt{
     background: -65px -143px / 954px no-repeat url(./assets/shutterstock_493495414.jpg);
@@ -396,26 +397,26 @@ footer {
 
 
 /* contact-us page */
-.section-contact-us {
+.section-contact-us-page {
     background-color: #ffffff;
     padding: 20px ;
 }
 
-.section-contact-us h3{
+.section-contact-us-page h3{
     font-weight: bold;
     font-size: 2.5rem;
     margin: 15px 0;
 }
 
 
-.section-contact-us label{
+.section-contact-us-page label{
     width: 100%;
     display: block;
     font-weight: bold;
     font-size: 1.3rem;
 }
 
-.section-contact-us input{
+.section-contact-us-page input{
     width: 100%;
     display: block;
     padding: 5px;
@@ -423,7 +424,7 @@ footer {
 }
 
 
-.section-contact-us textarea{
+.section-contact-us-page textarea{
     width: 100%;
     display: block;
     padding: 5px;
