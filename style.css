@@ -432,3 +432,87 @@ footer {
     height : 150px;
 }
 
+/* blog page */
+
+.articles--blog-page {
+    padding: 10px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles--blog-page .article {
+    width: 30%;
+    position: relative;
+    padding: 10px 0;
+} 
+.articles--blog-page .tags {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    background: #ffffff;
+    border-radius: 100px;
+    padding: 10px;
+}
+.articles--blog-page .tags p{
+    padding: 0px;
+    margin: 0;
+}
+
+.articles--blog-page img {
+    width: 100%;
+}
+
+.articles--blog-page .date {
+    padding: 0 10px 0 0;
+    font-size: 12px;
+    color: #3d3d3e;
+    border-right: 1px solid #3d3d3d;
+}
+
+.articles--blog-page .comment {
+    font-size: 12px;
+    color: #3d3d3e;
+    padding: 0 0 0 10px;
+}
+.articles--blog-page .date p , .articles--blog-page .comment p{
+    margin: 0;
+    padding: 0;
+}
+.articles--blog-page .details {
+display: flex;
+}
+
+.pagination-main {
+    /* border: 1px solid #000; */
+    /* border-radius: 10px; */
+}
+ul.pagination {
+    display: flex;
+    justify-content:center;
+}
+
+ul.pagination li {
+    list-style: none;
+}
+
+ul.pagination li.first a{
+    border-radius: 10px 0 0 10px;    
+}
+
+ul.pagination li.last a{
+    border-radius: 0 10px  10px 0;    
+}
+
+ul.pagination li a{
+        border: 1px solid #000; 
+        padding: 10px 20px;
+        text-decoration: none;
+        display: inline-block;
+        color: #000;
+}
+ul.pagination li a:hover{
+background-color: #c8c8c8;
+}
