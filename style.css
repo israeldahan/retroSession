@@ -299,6 +299,49 @@ footer {
     background: center center / 50px no-repeat  url(./assets/iconfinder_logo_social_media_phone_1078687.png);
 }
 
+.section-main.recomended-main  {
+   background: #000;
+   color: #ffffff;
+   padding: 50px;
+}
+
+.section-recomended  {
+    position: relative;
+}
+
+.section-recomended  h3  {
+    text-align:center;
+}
+
+.section-recomended .recomended .text p {
+    text-align: center;
+    font-size: 40px
+    position: relative;
+}
+
+.section-recomended .recomended:before {
+    content: '\"';
+    font-size: 329px;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: -135px;
+    left: 42px;
+}
+
+.section-recomended .recomended:after {
+    content: '\"';
+    font-size: 329px;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    top: -24px;
+    right: 23px;
+}
+
+.section-recomended .recomended .name p  {
+    text-align: center;
+}
 
 /* gallery-page */
 
